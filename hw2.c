@@ -21,15 +21,15 @@ int main(){
 
 
     if (chess[i][j] == 0){
-      printf("ªÅ¥Õ");
+      printf("empty");
     }
 
     else if (chess[i][j] == 1){
-      printf("¶Â");
+      printf("black");
     }
 
     else if (chess[i][j] == 2){
-      printf("¥Õ");
+      printf("white");
     }
 
 
